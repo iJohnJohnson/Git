@@ -12,33 +12,34 @@ h1 {
 background-color: hsl(0, 0%, 0%);
 font-size: 60px;
 border: 6px solid hsl(0, 0%, 100%);
-border-radius: 10px;
+border-radius: 60px;
 padding: 3px;
 transform: translateY(-30px);
 }
 
 h2 {
-
+font-size: 50px;
 }
 
 h3 {
-
+font-size: 50px;
 }
 
 h4 {
-
+font-size: 50px;
 }
 
 h5 {
-
+font-size: 50px;
 }
 
 h6 {
-
+font-size: 50px;
 }
 
 p {
-
+font-size: 20px;
+color: white;
 }
 
 .textGoal {
@@ -57,7 +58,7 @@ background-color: hsl(50, 50%, 50%);
 }
 
 .navBox {
-
+color: white;
 }
 
 .navbar a{
