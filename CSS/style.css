@@ -1,6 +1,7 @@
 /* Sets standard for entire page */
 body
 {
+
 background-color: black;
 color: white;
 font-family: verdana, arial;
@@ -12,7 +13,7 @@ h1 {
 background-color: hsl(0, 0%, 0%);
 font-size: 60px;
 border: 6px solid hsl(0, 0%, 100%);
-border-radius: 60px;
+border-radius: 10px;
 padding: 3px;
 transform: translateY(-30px);
 }
@@ -22,29 +23,29 @@ font-size: 50px;
 }
 
 h3 {
-font-size: 50px;
+    font-size: 50px;
 }
 
 h4 {
-font-size: 50px;
+    font-size: 50px;
 }
 
 h5 {
-font-size: 50px;
+    font-size: 50px;
 }
 
 h6 {
-font-size: 50px;
+    font-size: 50px;
 }
 
 p {
-font-size: 20px;
-color: white;
+    font-size: 50px;
 }
 
-.textGoal {
+.textGoal p {
+font-size: 30px;
 position: relative;
-transform: translateY(100px);
+transform: translate(100px 10px);
 }
 
 .textBottom {
@@ -90,4 +91,9 @@ text-decoration: none;
 /* Lists */
 ul {
 list-style-type: none;
+}
+
+/* Images */
+.imageLogo {
+float: center;
 }
