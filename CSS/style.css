@@ -97,3 +97,82 @@ list-style-type: none;
 .imageLogo {
 float: center;
 }
+
+.imageLogo_X1 {
+    float: left;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#logo_X {
+    color: white;
+    float: left;
+    padding-left: .5em;
+    margin-top: 1.5em;
+}
+
+#logo_X:hover{
+    color: grey;
+}
+    font-size: 50px;
+}
+
+p {
+    font-size: 50px;
+}
+
+.textGoal p {
+font-size: 30px;
+position: relative;
+transform: translate(100px 10px);
+}
+
+.textBottom {
+position: relative;
+transform: translateY(300px);
+}
+
+/* Navigation Bar */
+.nav ul {
+background-color: hsl(50, 50%, 50%);
+}
+
+.navBox {
+color: white;
+}
+
+.navbar a{
+color: white;
+text-decoration: none;
+display: block;
+border: 6px solid hsl(0, 0%, 100%);
+border-radius: 10px;
+padding: 10px;
+margin: 5px;
+overflow: auto;
+width: 100px;
+}
+
+.navbar li {
+display: inline-block;
+}
+
+/* Anchor */
+a {
+color: white;
+}
+
+a:visited {
+color: white;
+text-decoration: none;
+}
+
+/* Lists */
+ul {
+list-style-type: none;
+}
+
+/* Images */
+.imageLogo {
+float: center;
+}
